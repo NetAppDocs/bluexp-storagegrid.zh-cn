@@ -19,7 +19,6 @@
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理节点的域名或IP地址。</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理节点的管理员凭据。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="7fd958d2cabd0884d2f06017cf1f56c4" category="list-text">选择* StorageGRID *并单击*下一步*。</block>
   <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">如果出现提示，请创建 Connector 。</block>
   <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">有关详细信息、请参见上述链接。</block>
   <block id="f50edfcfb42c3810a2ab7cdb0717f656" category="list-text">在_Cluster StorageGRID Details_页面上、输入管理节点的域名或IP地址、该节点的凭据、然后单击*添加*。</block>
@@ -61,7 +60,6 @@
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">单击 * 删除 * 进行确认。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
-  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自助支持</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
@@ -69,8 +67,6 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
-  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 支持</block>
-  <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -94,7 +90,6 @@
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
-  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
@@ -135,10 +130,7 @@
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
-  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
-  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登录后、NetApp将存储NSS用户名。这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
-  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。使用此选项将提示您重新登录。</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
@@ -179,7 +171,6 @@
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
   <block id="2c71302d487f8187b7a71c37c179042c" category="summary">BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 集群添加到BlueXP、您可以全面了解混合多云中的数据。</block>
   <block id="eceb40fde78eb6b6f2f6a7bff798d050" category="paragraph">BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 系统添加到BlueXP、您可以全面了解混合多云中的数据。</block>
-  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
   <block id="dd7b7135b0a124cc17bc203de731ce8c" category="list-text">单击*添加工作环境*并选择*内部部署*。</block>
   <block id="3cc520598c18a9fc329389fe4ad413dd" category="paragraph">BlueXP会发现StorageGRID 系统并将其作为工作环境添加到Canvas上。</block>
   <block id="05b22a89d498371ec741a6eb2ffba0bf" category="inline-image-macro">一个屏幕截图、显示了BlueXP画布上的StorageGRID 工作环境。</block>
@@ -211,4 +202,49 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">适用于 Google Cloud 的 Cloud Volumes Service</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理信息板提供了两个视图：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左侧视图显示了您提供的用户NSS帐户在过去3个月内打开的案例总数。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右侧视图显示了过去3个月内根据用户NSS帐户在公司级别开立的案例总数。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">此表中的结果反映了与选定视图相关的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">"状态"列中筛选选项的屏幕截图、可用于筛选与特定状态(如"活动"或"已关闭")匹配的案例。</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表中显示的加号图标</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">通过单击更改表中显示的列 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">单击以管理现有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
+  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息。</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="520851e11d4657fa15ed8a11da0eec00" category="list-text">从BlueXP导航菜单中、选择*存储&gt;画布*。</block>
+  <block id="c1337bb911d61c7e24f0143c98280728" category="list-text">在* StorageGRID *旁边、选择*发现*。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS帐户必须是客户级别的帐户(而不是来宾或临时帐户)。您可以拥有多个客户级别的NSS帐户。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果此帐户是合作伙伴级别的帐户、则只能有一个NSS帐户。如果您尝试添加客户级别的NSS帐户、并且存在合作伙伴级别的帐户、则会收到以下错误消息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"此帐户不允许使用NSS客户类型、因为已存在不同类型的NSS用户。"</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
 </blocks>

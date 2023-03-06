@@ -25,9 +25,9 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[
 
 
 .步骤
-. 从导航菜单中、选择*存储>画布*。
+. 从BlueXP导航菜单中、选择*存储>画布*。
 . 单击*添加工作环境*并选择*内部部署*。
-. 选择* StorageGRID *并单击*下一步*。
+. 在* StorageGRID *旁边、选择*发现*。
 . 如果出现提示，请创建 Connector 。
 +
 有关详细信息、请参见上述链接。
