@@ -16,16 +16,16 @@ summary: 在BlueXP中发现StorageGRID 系统后、您可以将NetApp的数据�
 [role="lead"]
 在BlueXP中发现StorageGRID 系统后、您可以使用NetApp的数据服务进行备份和数据同步。
 
-* 使用*云备份*将数据从内部ONTAP 系统备份到NetApp StorageGRID 系统中的对象存储。
+* 使用BlueXP备份和恢复功能将数据从内部ONTAP 系统备份到NetApp StorageGRID 系统中的对象存储。
 +
-要开始使用、请转到"画布"并将内部部署的ONTAP 工作环境拖放到您的StorageGRID 工作环境中。
+要开始使用、请转到BlueXP画布并将内部ONTAP 工作环境拖放到StorageGRID 工作环境中。
 
 +
 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["了解有关将内部ONTAP 数据备份到StorageGRID 的更多信息"^]
 
-* 使用* Cloud Sync 与StorageGRID 系统之间的数据同步*。
+* 使用BlueXP复制和同步功能将数据同步到StorageGRID 系统或从BlueXP系统同步数据。
 +
-要开始使用、请转到"画布"并将源工作环境拖放到目标工作环境上。StorageGRID 可以是源或目标。
+要开始使用、请转到BlueXP画布并将源工作环境拖放到目标工作环境中。StorageGRID 可以是源或目标。
 
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/index.html["了解有关 Cloud Sync 的更多信息"^]

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">将NetApp数据服务与StorageGRID 结合使用</block>
-  <block id="3822be2497c1c1e2e76ff4863e2d510e" category="list-text">使用*云备份*将数据从内部ONTAP 系统备份到NetApp StorageGRID 系统中的对象存储。</block>
-  <block id="7e995f90ad07a7b6c4bbd3ebeea051bb" category="paragraph">要开始使用、请转到"画布"并将内部部署的ONTAP 工作环境拖放到您的StorageGRID 工作环境中。</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">了解有关将内部ONTAP 数据备份到StorageGRID 的更多信息</block>
   <block id="5848e24b55c702b7cc486314cd78f6dc" category="paragraph"><block ref="5848e24b55c702b7cc486314cd78f6dc" category="inline-link-rx"></block></block>
-  <block id="c2c9861dbf50fae669de81ff19a8e714" category="list-text">使用* Cloud Sync 与StorageGRID 系统之间的数据同步*。</block>
-  <block id="d295ee26072b39ec669dd814d31c9a1e" category="paragraph">要开始使用、请转到"画布"并将源工作环境拖放到目标工作环境上。StorageGRID 可以是源或目标。</block>
   <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">了解有关 Cloud Sync 的更多信息</block>
   <block id="fcea636cb0627956ef5da173e7e82e53" category="paragraph"><block ref="fcea636cb0627956ef5da173e7e82e53" category="inline-link-rx"></block></block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID 管理的新增功能</block>
@@ -62,7 +58,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
@@ -106,7 +101,6 @@
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="b501cdbb274f1f3688a32519c0624867" category="summary">如果您不想再从BlueXP管理StorageGRID 工作环境、请将其删除。</block>
   <block id="25688ec9bc48b0c01ad79b9dd8586d35" category="paragraph">删除工作环境不会影响StorageGRID 系统。您可以随时从BlueXP中重新发现它。</block>
-  <block id="9f2db88a43e23979b76211bebac90c3c" category="summary">通过BlueXP (以前称为Cloud Manager)发现您的StorageGRID 系统、全面了解混合多云中的数据。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加NetApp 支持站点 (NSS)帐户、然后注册获取支持。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
@@ -178,10 +172,7 @@
   <block id="54bd03a569afb098328ca82511616f55" category="summary">在BlueXP中发现StorageGRID 系统后、您可以将NetApp的数据服务与StorageGRID 结合使用来进行备份和数据同步。</block>
   <block id="b88241859cee076fd3a4ddaeda099288" category="paragraph">在BlueXP中发现StorageGRID 系统后、您可以使用NetApp的数据服务进行备份和数据同步。</block>
   <block id="c99454978b70ce8c05ee8d05b1e2aaaf" category="summary">了解在BlueXP中管理StorageGRID 系统的新增功能。</block>
-  <block id="24c8fc3b4b2e095dbd61ec785ac478ec" category="paragraph">了解在BlueXP (以前称为Cloud Manager)中管理StorageGRID 系统的新增功能。</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">现在、您可以直接从BlueXP发现StorageGRID 系统。通过发现StorageGRID 、您可以全面了解混合多云中的数据。</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">有关BlueXP 3.9的通知</block>
-  <block id="03f975e839e4278228720a5d19656288" category="list-text"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="6f6c91d32f256a6b43783564031a35dc" category="sidebar">用于在BlueXP之外进行管理的StorageGRID 文档</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
@@ -249,4 +240,12 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件(可选)*：一次最多上传五个附件。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个文件的附件数限制为25 MB。支持以下文件扩展名：txt、log、pdf、jp6/jpeu、rtf、 doc/docx、xls/xlsx和csv。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息、或者选择*上传文件*最多附加五个文件。</block>
+  <block id="883eef4b617ed29c6215037626df7b5e" category="summary">通过BlueXP发现您的StorageGRID 系统、全面了解混合多云中的数据。</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="562a1ca3f27bbce8f867c759f82d02dc" category="list-text">使用BlueXP备份和恢复功能将数据从内部ONTAP 系统备份到NetApp StorageGRID 系统中的对象存储。</block>
+  <block id="ead1951b53a3b76661043b6bf5ff1b48" category="paragraph">要开始使用、请转到BlueXP画布并将内部ONTAP 工作环境拖放到StorageGRID 工作环境中。</block>
+  <block id="b99ff865a132e7a6116d680732bd74a1" category="list-text">使用BlueXP复制和同步功能将数据同步到StorageGRID 系统或从BlueXP系统同步数据。</block>
+  <block id="e1bb8de567622bad90039f45af7d579c" category="paragraph">要开始使用、请转到BlueXP画布并将源工作环境拖放到目标工作环境中。StorageGRID 可以是源或目标。</block>
 </blocks>
