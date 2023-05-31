@@ -18,7 +18,7 @@ BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID �
 .您需要的内容
 * 一种安装在云提供商或内部环境中并通过网络连接到StorageGRID 系统的连接器。
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器以及如何创建连接器的更多信息"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器以及如何创建连接器的更多信息"^]
 
 * 管理节点的域名或IP地址。
 * 管理节点的管理员凭据。
