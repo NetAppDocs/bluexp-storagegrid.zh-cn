@@ -13,6 +13,7 @@ summary: BlueXP可以发现内部环境中的StorageGRID 系统。通过将Stora
 :imagesdir: ./media/
 
 
+[role="lead"]
 BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 系统添加到BlueXP、您可以全面了解混合多云中的数据。
 
 .您需要的内容

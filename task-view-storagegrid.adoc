@@ -13,6 +13,7 @@ summary: 发现StorageGRID 系统后、您可以查看有关容量分布以及�
 :imagesdir: ./media/
 
 
+[role="lead"]
 发现StorageGRID 系统后、您可以查看有关容量分布以及关联警报、节点和租户的详细信息。
 
 .步骤

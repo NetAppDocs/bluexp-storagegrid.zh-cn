@@ -10,6 +10,7 @@ summary: NetApp通过多种方式为BlueXP提供支持。全天候提供丰富�
 :imagesdir: ../media/
 
 
+[role="lead"]
 NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。
 
 

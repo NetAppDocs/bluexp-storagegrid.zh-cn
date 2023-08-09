@@ -10,6 +10,7 @@ summary: 在向NetApp技术支持部门创建支持案例之前、您需要向Bl
 :imagesdir: ../media/
 
 
+[role="lead"]
 您的BlueXP帐户和各个Cloud Volumes ONTAP系统都需要注册支持。
 
 
