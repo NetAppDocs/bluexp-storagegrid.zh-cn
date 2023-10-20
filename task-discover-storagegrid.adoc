@@ -16,7 +16,9 @@ summary: BlueXP可以发现内部环境中的StorageGRID 系统。通过将Stora
 [role="lead"]
 BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 系统添加到BlueXP、您可以全面了解混合多云中的数据。
 
-.您需要的内容
+.开始之前
+您需要满足以下要求：
+
 * 一种安装在云提供商或内部环境中并通过网络连接到StorageGRID 系统的连接器。
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器以及如何创建连接器的更多信息"^]

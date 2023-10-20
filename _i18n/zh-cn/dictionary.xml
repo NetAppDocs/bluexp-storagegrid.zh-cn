@@ -39,7 +39,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
-  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">删除StorageGRID 工作环境</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">工作环境右上角菜单中提供的从工作空间删除选项的屏幕截图。</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
@@ -58,7 +57,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">发现您的StorageGRID 系统</block>
   <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">管理StorageGRID 系统</block>
-  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">删除StorageGRID 系统</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="5a48514fa915876d588438500b09c18f" category="sidebar">删除StorageGRID</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">更多信息</block>
@@ -126,7 +124,6 @@
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">现在、您可以直接从BlueXP发现StorageGRID 系统。通过发现StorageGRID 、您可以全面了解混合多云中的数据。</block>
   <block id="6f6c91d32f256a6b43783564031a35dc" category="sidebar">用于在BlueXP之外进行管理的StorageGRID 文档</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的内容</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
@@ -256,4 +253,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
+  <block id="724a6db0c5e9b582c8f6ea917749db0a" category="doc">删除StorageGRID工作环境</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">您需要满足以下要求：</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">删除工作环境</block>
 </blocks>
