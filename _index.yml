@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: 使用BlueXP进行StorageGRID管理
+  summary: 从BlueXP中发现您的StorageGRID系统、全面了解混合多云中的数据。
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud
+  lead: 从BlueXP中发现您的StorageGRID系统、全面了解混合多云中的数据。
+  tiles:
+  - title: 入门
+    links:
+    - title: 发现您的StorageGRID 系统
+      url: task-discover-storagegrid.html
+  - title: 管理StorageGRID 系统
+    links:
+    - title: 查看StorageGRID 系统
+      url: task-view-storagegrid.html
+    - title: 将NetApp数据服务与StorageGRID 结合使用
+      url: task-enable-data-services.html
+    - title: 删除StorageGRID
+      url: task-remove-storagegrid.html
+  - title: 更多信息
+    links:
+    - title: 用于在BlueXP之外进行管理的StorageGRID 文档
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: 博客社区
+    links:
+    - title: NetApp 社区
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP博客
+      url: https://cloud.netapp.com/blog
+    - title: 云网络研讨会
+      url: https://cloud.netapp.com/events
