@@ -1,0 +1,136 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 使用高级视图从BlueXP  管理StorageGRID系统。通过此视图、您可以在StorageGRID工作环境中使用网格管理器。 
+---
+= 使用高级视图管理StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用高级视图从BlueXP  管理StorageGRID系统。通过此视图、您可以在StorageGRID工作环境中使用网格管理器。
+
+
+
+== 支持的配置
+
+从StorageGRID 11.8开始、网格管理器可在BlueXP  中使用。
+
+
+
+== 限制
+
+以下网格管理器操作无法从BlueXP  执行。如果需要执行这些操作、请直接登录到网格管理器。
+
+[cols="1a,2a"]
+|===
+| 网格管理器菜单 | 无法从BlueXP  执行操作 
+
+
+ a| 
+用户
+ a| 
+* 注销链接
+* API文档链接
+* 更改密码
+
+
+
+
+ a| 
+节点
+ a| 
+* 您不能从"节点">"System SANtricity Manager"选项卡访问SANtricity系统管理器。
+* 查看警报时、您可能无法选择建议操作中的所有链接。例如、转到不受支持的网格管理器页面的链接将不起作用。
+
+
+
+
+ a| 
+租户
+ a| 
+您不能从创建租户向导或租户页面登录到租户帐户。
+
+BlueXP  当前不支持租户管理器。尽管您可以从BlueXP  创建新的租户帐户、但租户用户无法从BlueXP  登录到其帐户。
+
+
+
+ a| 
+ILM
+ a| 
+存储等级链接
+
+
+
+ a| 
+配置
+ a| 
+* 网格密码
+* 流量分类>指标
+* 安全设置>浏览器非活动超时
+* 单点登录
+* BMC界面的SNMP代理> MIB文件
+
+
+
+
+ a| 
+维护
+ a| 
+* 恢复软件包
+* 软件更新
+
+
+
+
+ a| 
+支持
+ a| 
+* 网格拓扑
+* 日志
+* 指标、包括用户界面中其他位置指向Prometheus指标和Grafana信息板的所有链接。
+* 传统警报的所有选项
+* 链路成本
+* NMS 实体
+
+
+|===
+
+
+== 切换到高级视图
+
+打开StorageGRID工作环境、然后选择高级视图选项。
+
+.步骤
+. 从"画布"页面中、打开StorageGRID工作环境。
+. 在右上角，选择*切换到高级视图*。
++
+image:screenshot-advanced-view.png["显示切换到高级视图选项的StorageGRID工作环境的屏幕截图。"]
+
+. 使用网格管理器管理StorageGRID系统。
++
+需要注意的一个不同之处是，Grid Manager中的帮助菜单已被以下菜单所取代：
+
++
+image:advanced-view-menu.png["StorageGRID工作环境的屏幕截图、其中操作菜单位于屏幕右上角。"]
+
++
+此菜单提供了所有相同的帮助选项、但API文档链接除外。
+
+. 如果需要、请选择切换到标准视图以通过BlueXP  返回标准视图。
++
+image:screenshot-standard-view.png["显示切换到标准视图选项的StorageGRID工作环境的屏幕截图。"]
+
+
+
+
+
+== 获取有关网格管理器的帮助
+
+如果您在使用网格管理器时需要帮助、请参阅 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID 文档"^] 以获取分步说明。

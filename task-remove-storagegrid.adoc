@@ -21,7 +21,7 @@ summary: 如果您不想再从BlueXP管理StorageGRID 工作环境、请将其�
 .步骤
 . 从导航菜单中、选择*存储>画布*。
 . 在"画布"页面上、选择StorageGRID工作环境。
-. 选择菜单图标，然后选择*从工作空间中删除*。
+. 在标准视图中，选择菜单图标并选择*Remove from Workspace*。
 +
 image:screenshot-remove.png["工作环境右上角菜单中提供的从工作空间删除选项的屏幕截图。"]
 

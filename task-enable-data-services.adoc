@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: 在BlueXP中发现StorageGRID 系统后、您可以将NetApp的数据服务与StorageGRID 结合使用来进行备份和数据同步。 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: 在BlueXP  中发现StorageGRID系统后、您可以使用NetApp的数据服务进行备份、数据分层和数据同步。 
 ---
 = 将NetApp数据服务与StorageGRID 结合使用
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在BlueXP中发现StorageGRID 系统后、您可以将NetApp的数据�
 
 
 [role="lead"]
-在BlueXP中发现StorageGRID 系统后、您可以使用NetApp的数据服务进行备份和数据同步。
+在BlueXP  中发现StorageGRID系统后、您可以使用NetApp的数据服务进行备份、数据分层和数据同步。
 
 * 使用BlueXP备份和恢复功能将数据从内部ONTAP 系统备份到NetApp StorageGRID 系统中的对象存储。
 +
@@ -22,6 +22,13 @@ summary: 在BlueXP中发现StorageGRID 系统后、您可以将NetApp的数据�
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["了解有关将内部ONTAP 数据备份到StorageGRID 的更多信息"^]
+
+* 使用BlueXP  分层功能自动将非活动数据从内部ONTAP集群分层到StorageGRID。
++
+要开始使用、请转到BlueXP画布并将内部ONTAP 工作环境拖放到StorageGRID 工作环境中。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["详细了解如何将内部ONTAP集群中的数据层到StorageGRID"^]
 
 * 使用BlueXP复制和同步功能将数据同步到StorageGRID 系统或从BlueXP系统同步数据。
 +

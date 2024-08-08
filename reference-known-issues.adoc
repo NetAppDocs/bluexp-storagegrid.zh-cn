@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors 
+summary: 已知问题可确定可能妨碍您成功使用此版本产品的问题。 
+---
+= 已知问题
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知问题可确定可能妨碍您成功使用此版本产品的问题。
+
+
+
+== 更新后的显示名称不会显示在BlueXP  中
+
+如果使用重命名过程为网站或网格定义新的显示名称、则新的显示名称不会反映在BlueXP  工作环境中。工作环境仍会显示系统名称、而不是新的显示名称。
+
+
+
+== 筛选警报时出错
+
+使用高级视图时、筛选"Alerts"页面的内容会导致出现错误。
+
+
+
+== 编辑网格联合连接时出错
+
+使用高级视图时、编辑网格联合连接时可能会遇到网关超时错误。

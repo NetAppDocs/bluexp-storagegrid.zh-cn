@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 集群添加到BlueXP、您可以全面了解混合多云中的数据。 
+summary: 发现内部环境中的StorageGRID系统、然后使用网格管理器直接从BlueXP  管理这些系统。 
 ---
 = 发现StorageGRID 系统
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP可以发现内部环境中的StorageGRID 系统。通过将Stora
 
 
 [role="lead"]
-BlueXP可以发现内部环境中的StorageGRID 系统。通过将StorageGRID 系统添加到BlueXP、您可以全面了解混合多云中的数据。
+发现内部环境中的StorageGRID系统、然后使用网格管理器直接从BlueXP  管理这些系统。
 
 .开始之前
 您需要满足以下要求：
@@ -25,6 +25,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解
 
 * 管理节点的域名或IP地址。
 * 管理节点的管理员凭据。
+* 安装在StorageGRID系统上的管理接口证书。
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["了解有关在StorageGRID上安装管理接口证书的更多信息"^]
+
 
 
 .步骤
@@ -35,9 +39,30 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解
 +
 有关详细信息、请参见上述链接。
 
-. 在_Cluster StorageGRID Details_页面上、输入管理节点的域名或IP地址以及节点的凭据、然后选择*添加*。
+. 在StorageGRID BlueXP  的_Cluster Details_页面上、输入管理节点的域名或IP地址以及节点的凭据、然后选择*添加*。
 +
 image:screenshot-cluster-details.png["屏幕截图显示了StorageGRID 集群详细信息页面、您可以在此页面中输入管理节点的域名或IP地址以及凭据。"]
+
+. BlueXP  会自动检索StorageGRID管理接口证书。在_Approve certific证书_页面上、查看证书详细信息。
++
+image:screenshot-bluexp-approve-certificate.png["显示在发现StorageGRID系统期间出现的批准证书屏幕的屏幕截图"]
+
+. 如果要使用与显示的证书不同的证书、则必须先在StorageGRID系统上配置它。
++
+.. 在内部StorageGRID系统中，按照以下说明进行操作： https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安装管理接口证书"^]。
+.. 在StorageGRID系统中配置证书后，在BlueXP  的_Approve certificer_页面上选择*Cancel*。
+.. 在_Cluster Details_ StorageGRID页面上、选择*添加*。
+
+
+. (可选)选择*复制证书*以复制证书的详细信息。如果需要、您可以使用证书详细信息执行其他验证。
+. 执行以下操作之一：
++
+.. 选择*Approve Certifice*(批准证书)以使用证书。
++
+此时将显示一条成功消息。StorageGRID服务器和BlueXP  连接器之间的所有通信都将通过验证已批准的证书来保护。
+
+.. 选择*Cancel*结束发现过程而不验证证书。例如，如果收到通知您需要更新StorageGRID管理证书的错误消息，则可以选择*Cancel*。要更新证书，请转至 <<use-a-different-certificate,请使用其他证书>>。
+
 
 
 
