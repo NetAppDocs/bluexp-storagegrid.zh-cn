@@ -61,7 +61,13 @@ image:screenshot-bluexp-approve-certificate.png["显示在发现StorageGRID系�
 +
 此时将显示一条成功消息。StorageGRID服务器和BlueXP  连接器之间的所有通信都将通过验证已批准的证书来保护。
 
-.. 选择*Cancel*结束发现过程而不验证证书。例如，如果收到通知您需要更新StorageGRID管理证书的错误消息，则可以选择*Cancel*。要更新证书，请转至 <<use-a-different-certificate,请使用其他证书>>。
+.. 选择*Cancel*结束发现过程而不验证证书。
++
+例如，如果收到通知您需要更新StorageGRID管理证书的错误消息，则可以选择*Cancel*。
+
++
+要更新证书、请转到StorageGRID系统、更新证书、然后从BlueXP  重新启动发现过程。
+
 
 
 

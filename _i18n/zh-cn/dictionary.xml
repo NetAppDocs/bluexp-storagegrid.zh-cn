@@ -327,16 +327,11 @@
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">执行以下操作之一：</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">选择*Approve Certifice*(批准证书)以使用证书。</block>
   <block id="deac8378c59fe3d88512463d35486723" category="paragraph">此时将显示一条成功消息。StorageGRID服务器和BlueXP  连接器之间的所有通信都将通过验证已批准的证书来保护。</block>
-  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">请使用其他证书</block>
-  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">选择*Cancel*结束发现过程而不验证证书。例如，如果收到通知您需要更新StorageGRID管理证书的错误消息，则可以选择*Cancel*。要更新证书，请转至 <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>。</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">在BlueXP  中发现StorageGRID系统后、您可以使用NetApp的数据服务进行备份、数据分层和数据同步。</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">使用BlueXP  分层功能自动将非活动数据从内部ONTAP集群分层到StorageGRID。</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">详细了解如何将内部ONTAP集群中的数据层到StorageGRID</block>
   <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="1c0cf398fca729802189afd04195daca" category="summary">由于证书可能会过期、因此您有时可能需要查看状态或更新证书。</block>
-  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">在BlueXP  中管理证书</block>
-  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">要在BlueXP  和StorageGRID之间建立安全连接、需要用户批准的管理接口证书。由于证书可能会过期、因此您有时可能需要查看状态或更新证书。</block>
-  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">查看管理推理证书状态</block>
   <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">在标准视图中、检查页面右侧_Information_窗格底部的用户批准证书状态。</block>
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">证书状态每24小时刷新一次。</block>
   <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">工作环境中"信息"窗格的屏幕截图。</block>
@@ -344,12 +339,10 @@
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">更新管理接口证书</block>
   <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">如果您的管理接口证书状态无效或您收到证书已过期的通知、则需要对其进行更新、以便BlueXP  可以连接到StorageGRID。</block>
   <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">转到StorageGRID中的内部网格管理器，然后按照的说明进行操作<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>。</block>
-  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">在Blue XP导航菜单中，选择*存储&gt; Canves*。</block>
   <block id="40540158a277d365081d54ce377ee023" category="list-text">选择更多选项图标(带有三个垂直圆点的圆圈)。</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">更新菜单的屏幕截图。</block>
   <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">选择*更新证书*。</block>
-  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">您还可以使用"标准"视图中的"更多选项"图标(带三个垂直圆点的图标)更新证书。</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">在_Approve certifice_页上，选择*Approve Certifice*以使用更新后的证书。</block>
   <block id="101a4dba130db08f412262b11097db65" category="list-text">在标准视图中，选择菜单图标并选择*Remove from Workspace*。</block>
   <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024 年 8 月 7 日</block>
@@ -362,5 +355,12 @@
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">了解如何在系统发现期间查看和批准服务器证书。</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">使用网格管理器从BlueXP  管理StorageGRID系统、并使用BlueXP的数据服务进行备份、数据分层等。</block>
-  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">管理证书</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">选择*Cancel*结束发现过程而不验证证书。</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">例如，如果收到通知您需要更新StorageGRID管理证书的错误消息，则可以选择*Cancel*。</block>
+  <block id="e9b0047ba9b98249dc4a3e9bc46a658e" category="paragraph">要更新证书、请转到StorageGRID系统、更新证书、然后从BlueXP  重新启动发现过程。</block>
+  <block id="a604d96f80b6dcdc7ff27801d921e9b3" category="doc">在BlueXP  中查看和更新StorageGRID证书</block>
+  <block id="cac8f8d491009407dfbdb3b442860ade" category="paragraph">在从BlueXP  发现StorageGRID系统之前、需要先在该系统上提供管理接口证书。此证书可在BlueXP  和StorageGRID之间提供安全连接。由于证书可能会过期、因此您有时可能需要查看状态或更新证书。</block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">查看管理接口证书的状态</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">查看StorageGRID系统的管理接口证书状态、以验证此证书是否仍然有效。</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">查看和更新StorageGRID证书</block>
 </blocks>
