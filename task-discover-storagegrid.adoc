@@ -19,7 +19,10 @@ summary: 发现内部环境中的StorageGRID系统、然后使用网格管理器
 .开始之前
 您需要满足以下要求：
 
-* 一种安装在云提供商或内部环境中并通过网络连接到StorageGRID 系统的连接器。
+* 一种运行3.9.43或更高版本的连接器、可通过网络连接到StorageGRID系统。
++
+连接器可以位于云端、也可以位于内部。它只需要与StorageGRID系统建立网络连接即可。
+
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器以及如何创建连接器的更多信息"^]
 
