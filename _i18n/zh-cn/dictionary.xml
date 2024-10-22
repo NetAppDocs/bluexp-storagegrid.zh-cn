@@ -362,6 +362,7 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp支持站点凭据与您的BlueXP  组织相关联：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
-  <block id="812698067d3edfc405bb07423d81be18" category="list-text">一种运行3.9.43或更高版本的连接器、可通过网络连接到StorageGRID系统。</block>
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">连接器可以位于云端、也可以位于内部。它只需要与StorageGRID系统建立网络连接即可。</block>
+  <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">使用3.9.43或更高版本全新安装连接器。</block>
+  <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">从连接器到StorageGRID系统的网络连接。</block>
 </blocks>
