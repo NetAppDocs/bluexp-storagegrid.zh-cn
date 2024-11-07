@@ -1,0 +1,19 @@
+= 新的高级视图
+:allow-uri-read: 
+
+
+
+
+=== 新的高级视图
+
+从StorageGRID 11.8开始、您可以使用熟悉的网格管理器界面从BlueXP  管理StorageGRID系统。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["了解如何使用高级视图管理StorageGRID"](英文)
+
+
+
+=== 能够审核和批准StorageGRID管理接口证书
+
+现在、您可以在从BlueXP  发现StorageGRID系统时查看和批准StorageGRID管理接口证书。您还可以在发现的网格上查看和批准最新的StorageGRID管理接口证书。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["了解如何在系统发现期间查看和批准服务器证书。"]
