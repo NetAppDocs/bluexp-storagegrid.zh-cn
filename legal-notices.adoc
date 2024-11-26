@@ -48,5 +48,5 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["BlueXP通知"^]
-* link:media/notice.pdf["StorageGRID系统的BlueXP  管理通知"^]
+* link:media/NOTICE-storageservices.pdf["StorageGRID系统的BlueXP  管理通知"^]
 
