@@ -16,6 +16,9 @@ summary: 如果您不想再从BlueXP管理StorageGRID 工作环境、请将其�
 [role="lead"]
 如果您不想再从BlueXP管理StorageGRID 工作环境、请将其删除。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员或存储管理员。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
 删除工作环境不会影响StorageGRID 系统。您可以随时从BlueXP中重新发现它。
 
 .步骤

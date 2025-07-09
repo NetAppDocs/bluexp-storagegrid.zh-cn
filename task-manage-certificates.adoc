@@ -16,6 +16,9 @@ summary: 由于证书可能会过期、因此您有时可能需要查看状态�
 [role="lead"]
 在从BlueXP  发现StorageGRID系统之前、需要先在该系统上提供管理接口证书。此证书可在BlueXP  和StorageGRID之间提供安全连接。由于证书可能会过期、因此您有时可能需要查看状态或更新证书。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员或存储管理员。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
 
 
 == 查看管理接口证书的状态

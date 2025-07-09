@@ -6,12 +6,9 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">支持StorageGRID</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">发现StorageGRID 系统</block>
-  <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">了解有关连接器以及如何创建连接器的更多信息</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理节点的域名或IP地址。</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理节点的管理员凭据。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
-  <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">如果出现提示，请创建 Connector 。</block>
-  <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">有关详细信息、请参见上述链接。</block>
   <block id="b692c7e41f214f1934d82e1fb8c34551" category="inline-image-macro">屏幕截图显示了StorageGRID 集群详细信息页面、您可以在此页面中输入管理节点的域名或IP地址以及凭据。</block>
   <block id="6f4e41dd41fcea233053f2ba61b3e93c" category="paragraph"><block ref="6f4e41dd41fcea233053f2ba61b3e93c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">发现StorageGRID 系统后、您可以查看有关容量分布以及关联警报、节点和租户的详细信息。</block>
@@ -167,7 +164,6 @@
   <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">了解有关BlueXP复制和同步的更多信息</block>
   <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="5693110829c37bf470028ed210aaa3a9" category="paragraph"><block ref="5693110829c37bf470028ed210aaa3a9" category="inline-link-rx"></block></block>
-  <block id="30e1f00c72b63f8042f24c3558ddb8e3" category="paragraph"><block ref="30e1f00c72b63f8042f24c3558ddb8e3" category="inline-link-rx"></block></block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
@@ -307,7 +303,6 @@
   <block id="883de86cf908ad706df604bca20d6e9d" category="list-text">BlueXP  会自动检索StorageGRID管理接口证书。在_Approve certific证书_页面上、查看证书详细信息。</block>
   <block id="bd9fb575ba237f8ebfeb0706ecdcbb14" category="inline-image-macro">显示在发现StorageGRID系统期间出现的批准证书屏幕的屏幕截图</block>
   <block id="5d2ec429ab6adc62b7ef0809eb5d31b6" category="paragraph"><block ref="5d2ec429ab6adc62b7ef0809eb5d31b6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="99ffc4996ddbc66ec3d88c9143de92ee" category="list-text">如果要使用与显示的证书不同的证书、则必须先在StorageGRID系统上配置它。</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">在StorageGRID上安装管理接口证书</block>
   <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">在内部StorageGRID系统中，按照以下说明进行操作：<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block>。</block>
   <block id="db712f470bd74a71528f96d96eeba458" category="list-text">在StorageGRID系统中配置证书后，在BlueXP  的_Approve certificer_页面上选择*Cancel*。</block>
@@ -315,7 +310,6 @@
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">(可选)选择*复制证书*以复制证书的详细信息。如果需要、您可以使用证书详细信息执行其他验证。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">执行以下操作之一：</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">选择*Approve Certifice*(批准证书)以使用证书。</block>
-  <block id="deac8378c59fe3d88512463d35486723" category="paragraph">此时将显示一条成功消息。StorageGRID服务器和BlueXP  连接器之间的所有通信都将通过验证已批准的证书来保护。</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">在BlueXP  中发现StorageGRID系统后、您可以使用NetApp的数据服务进行备份、数据分层和数据同步。</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">使用BlueXP  分层功能自动将非活动数据从内部ONTAP集群分层到StorageGRID。</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">详细了解如何将内部ONTAP集群中的数据层到StorageGRID</block>
@@ -362,9 +356,18 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp支持站点凭据与您的BlueXP  组织相关联：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
-  <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">连接器可以位于云端、也可以位于内部。它只需要与StorageGRID系统建立网络连接即可。</block>
-  <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">使用3.9.43或更高版本全新安装连接器。</block>
-  <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">从连接器到StorageGRID系统的网络连接。</block>
   <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">StorageGRID系统的BlueXP  管理通知</block>
   <block id="99395adb6824d0f0da9a0ed98f9378f9" category="list-text"><block ref="99395adb6824d0f0da9a0ed98f9378f9" category="inline-link-macro-rx"></block></block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">需要BlueXP访问角色</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解 BlueXP 访问角色。</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储健康专家*。 <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="2c90d6804b5a2b571ff0d84400597f77" category="doc">使用BlueXP中的网格管理器管理StorageGRID</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">所需的BlueXP角色：</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">联系您的组织管理员。</block>
+  <block id="75fe746a91853f8805bc964f8f8f47bb" category="list-text">使用 3.9.43 或更高版本的连接器。您必须拥有组织管理员角色才能安装连接器。如果您不确定您的组织是否有连接器，或者是否需要创建连接器，请联系您的BlueXP管理员。 <block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
+  <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">要使用不同的证书，请首先在StorageGRID系统上进行设置。</block>
+  <block id="6ffd37b9a5dfcec944420f7e8015504a" category="paragraph">BlueXP显示成功消息，并通过验证已批准的证书来保护StorageGRID服务器和BlueXP连接器之间的所有通信。</block>
+  <block id="5bc6f7894821932fa85d795cfc188701" category="paragraph">组织管理员、文件夹或项目管理员或存储管理员。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
 </blocks>

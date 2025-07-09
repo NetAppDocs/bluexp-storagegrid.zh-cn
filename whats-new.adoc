@@ -18,6 +18,16 @@ summary: 了解在BlueXP中管理StorageGRID 系统的新增功能。
 
 
 
+== 2025年5月12日
+
+
+
+=== 需要BlueXP访问角色
+
+现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储健康专家*。 link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
+
+
+
 == 2024 年 8 月 7 日
 
 

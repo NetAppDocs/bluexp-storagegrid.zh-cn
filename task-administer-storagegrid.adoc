@@ -4,7 +4,7 @@ permalink: task-administer-storagegrid.html
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
 summary: 使用高级视图从BlueXP  管理StorageGRID系统。通过此视图、您可以在StorageGRID工作环境中使用网格管理器。 
 ---
-= 使用高级视图管理StorageGRID
+= 使用BlueXP中的网格管理器管理StorageGRID
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,6 +15,9 @@ summary: 使用高级视图从BlueXP  管理StorageGRID系统。通过此视图
 
 [role="lead"]
 使用高级视图从BlueXP  管理StorageGRID系统。通过此视图、您可以在StorageGRID工作环境中使用网格管理器。
+
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 访问角色。"^]
 
 
 
